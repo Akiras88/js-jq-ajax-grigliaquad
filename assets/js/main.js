@@ -9,6 +9,7 @@
  ************************************************************************************/
 
 $(document).ready(function() {
+    
     // reference
     var myApi = 'https://flynn.boolean.careers/exercises/api/random/int';
     var boxes = $(".box");
@@ -39,11 +40,6 @@ $(document).ready(function() {
             }
         });
     });
-
-
-
-
-
 
 }); // end document ready
 
