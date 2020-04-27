@@ -28,7 +28,7 @@ body {
 }
 
 .box-min-5 {
-    background: lightyellow;
+    background: rgba(255, 255, 0, 0.794);
 }
 .box-sup-5 {
     background: lightgreen;

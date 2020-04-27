@@ -27,6 +27,12 @@ $(document).ready(function() {
                 } else {
                     alert('Hai già cliccato qui!');
                 }
+                // check if number is <= 5 add class yellow, or if is > 5 add class green
+                if ( self.text() <= '5') {
+                    self.addClass('box-min-5 ');
+                } else {
+                    self.addClass('box-sup-5');
+                };
             },
             error: function() {
                 console.log('Errore chiamata API')
